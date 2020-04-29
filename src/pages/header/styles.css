@@ -1,0 +1,118 @@
+header {
+    width: 100%;    
+    background: #EEEEEE;
+    float: left;
+    height: 98px;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #ccc;
+
+}
+
+body a{
+    text-decoration: none;
+}
+
+body header .header-content{
+    display: flex;
+    left: 0;
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 0 2%;    
+}
+
+body header .header-logo{
+    margin-top: 5px;
+
+    float: left;
+    position: relative;
+}
+
+body header .menu{
+    width: calc(100% - 417px);
+    height: 78px;
+    padding: 0 2%;
+    margin: 10px 0 0;
+}
+
+body header .menu-principal{
+    float: left;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 25px 0 0 50px;
+    padding: 0;
+    font-weight: 500;
+    font-family: 400 24px Roboto, sans-serif;
+    color: #1D1D1D;
+
+}
+
+body header .menu-principal .itemMenu{
+    float: left;
+    position: relative;
+    margin: 0 15px;
+    padding: 3px 0 7px;
+    display: inline;
+}
+
+body header .links-topo{
+    float: right;
+    position: relative;
+    width: 220px;
+    margin-top: 35px;
+}
+
+body header .menu .search-div {
+    margin-right: 50px;
+} 
+
+body .link-button{
+    float: left;
+    position: relative;
+    margin: 0 12px;
+    padding: 0;
+}
+
+.links-menu{
+    color: #1D1D1D;
+}
+
+body header .menu-principal .itemMenu .box-subMenu{
+    display: none;
+    float: left;
+    position: absolute;
+    background: #1D1D1D;  /* fallback for old browsers */
+    padding: 20px;
+    width: 250px;
+    margin-top: 5px;
+
+}
+
+
+
+.menu-principal > .itemMenu:hover > .box-subMenu {
+    display: block;
+}
+
+body header .menu-principal li{
+    list-style: none;
+    margin-top: 4px;
+}
+
+.box-subMenu .subCategoria .subItem a{
+
+    color: #cfcfcf;
+    font: 400 19px Roboto, sans-serif;
+    text-decoration: none;
+
+}
+
+.box-subMenu .subCategoria .subItem a:hover{
+
+   color: white;
+
+}

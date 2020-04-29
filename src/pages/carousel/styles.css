@@ -1,0 +1,22 @@
+.carousel{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.carousel.carousel-slider {
+    height: 300px;
+}
+
+div{
+    position: relative;
+}
+
+.carousel .thumbs-wrapper{
+    display: none;
+}
+
+.carousel .slide .legend{
+    display: none;
+}
